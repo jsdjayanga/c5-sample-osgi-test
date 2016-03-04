@@ -25,7 +25,7 @@ public class RandomTest {
     public Option[] createConfiguration() {
         List<Option> customOptions = new ArrayList<>();
         CarbonOSGiTestEnvConfigs configs = new CarbonOSGiTestEnvConfigs();
-        configs.setCarbonHome("/home/jayanga/WSO2/Training/TestUser/target/carbon-home");
+        configs.setCarbonHome("/home/jayanga/WSO2/Training/c5-sample-osgi-test/target/carbon-home");
         return CarbonOSGiTestUtils.getAllPaxOptions(configs, customOptions);
     }
 
